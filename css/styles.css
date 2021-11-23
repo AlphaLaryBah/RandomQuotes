@@ -1,0 +1,88 @@
+body {
+  background: lavender;
+  font-family: times new romans;
+}
+
+.container {
+  background: violet;
+  border: 5px solid white;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  align-self: center;
+  margin: auto;
+  justify-content: center;
+  margin-top: 100px;
+  padding: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  flex-wrap: wrap;
+}
+
+.btnHolder {
+  margin-top: 20px;
+}
+
+.btn {
+  display: flex;
+  align-self: center;
+  margin: auto;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  font-size: 25px;
+  color: white;
+  transition: 0.4s;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #555555;
+}
+
+.btn:hover {
+  background-color: orange;
+  color: white;
+}
+
+.fa-quote-left {
+  color: black;
+  font-size: 100px;
+  float: left;
+}
+
+.fa-quote-right {
+  color: black;
+  font-size: 100px;
+  float: right;
+}
+
+.textHolder {
+  flex-wrap: wrap;
+  border-radius: 10px;
+  background-color: white;
+  padding: 25px;
+  margin: 25px;
+  box-shadow: 5px 5px 5px 5px black;
+}
+
+.text {
+  color: black;
+  padding: 50px;
+  font-family: cursive;
+}
+
+.authorText {
+  color: cyan;
+  float: right;
+  margin-right: 10px;
+  padding: 20px;
+}
+
+.countQuotes {
+  text-align: center;
+}
+
+.countQuotes:before {
+  content: ".........("
+}
+
+.countQuotes:after {
+  content: ")........."
+}
